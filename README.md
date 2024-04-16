@@ -9,5 +9,9 @@ Do zrobienia Pati:
 - próbki audio z soundskape'ów
 - temat do eksploracji: data thingies, DNA thingies
 
+I jeszcze kilka zagadnień:
+- maxa lecimy w kwadro
+- TD odpalamy na 2 urządzeniach
+
 W idealnym świecie będziemy mieli dwa foldery: jeden do touchdesignera, drugi do maxa
 
