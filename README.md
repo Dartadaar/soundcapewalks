@@ -1,4 +1,3 @@
-[==========]
 # soundcapewalks
 
 Do zrobienia Włodek:
