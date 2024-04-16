@@ -4,7 +4,6 @@ Do zrobienia Włodek:
 - wizualizacja operowej ✅
 - topografia sieci ✅
 - https://youtu.be/ZgYxo6o-o9s?si=XIV8wCqKpiogWvan
-- poukładać githuba sensownie
 
 Do zrobienia Pati:
 - próbki audio z soundskape'ów
