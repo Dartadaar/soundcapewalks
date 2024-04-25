@@ -19,6 +19,5 @@ W idealnym świecie będziemy mieli dwa foldery: jeden do touchdesignera, drugi 
 TD, sceny:
 - Drzewo/liny
 - Człowiek/liny
-
 - Metro/lights
 - doskanować ulice!
