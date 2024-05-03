@@ -17,9 +17,7 @@ W idealnym świecie będziemy mieli dwa foldery: jeden do touchdesignera, drugi 
 
 
 TD, sceny:
-- Drzewo/liny
-- Człowiek/liny
-- Metro/lights
-- doskanować ulice!
+1. Metro/lights
+2. Drzewo
 
-p
+- doskanować ulice!
