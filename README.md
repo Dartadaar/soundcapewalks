@@ -15,3 +15,9 @@ I jeszcze kilka zagadnień:
 
 W idealnym świecie będziemy mieli dwa foldery: jeden do touchdesignera, drugi do maxa
 
+
+TD, sceny:
+- Drzewo/liny
+- Człowiek/liny
+- Metro/lights
+- doskanować ulice!
