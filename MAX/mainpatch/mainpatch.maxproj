@@ -2,7 +2,7 @@
 	"name" : "mainpatch",
 	"version" : 1,
 	"creationdate" : 3797590466,
-	"modificationdate" : 3797590477,
+	"modificationdate" : 3797661363,
 	"viewrect" : [ 25.0, 81.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,19 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"soundscapewalk2_Stereo_edited.wav" : 			{
+				"kind" : "audiofile",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Downloads",
+					"projectrelativepath" : "../../../../Downloads"
+				}
+
 			}
 
 		}
