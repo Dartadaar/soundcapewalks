@@ -18,6 +18,8 @@ W idealnym świecie będziemy mieli dwa foldery: jeden do touchdesignera, drugi 
 
 TD, sceny:
 1. Metro/lights ✅
-2. Drzewo
+2. Drzewo ✅
+
+- jak robimy przejścia?
 
 - doskanować ulice!
