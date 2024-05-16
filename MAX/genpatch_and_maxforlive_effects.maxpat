@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1468.0, 705.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -294,7 +294,7 @@
 									"reverb_wetdry" : 81.889763779527584,
 									"revtime" : 5792.125984251963018,
 									"tempo" : 0.0,
-									"wet/dry" : 100.0
+									"wet/dry" : 18.897637795275596
 								}
 
 							}
@@ -329,7 +329,7 @@
 												"reverb_wetdry" : 81.889763779527584,
 												"revtime" : 5792.125984251963018,
 												"tempo" : 0.0,
-												"wet/dry" : 100.0
+												"wet/dry" : 18.897637795275596
 											}
 
 										}
@@ -13063,13 +13063,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "Folia SS_koksowe Duo.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Max SpectralDelay.amxd",
 				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralDelay",
 				"type" : "amxd",
@@ -13078,7 +13071,7 @@
 , 			{
 				"name" : "Max SpectralDelay.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -13091,7 +13084,7 @@
 , 			{
 				"name" : "Space Echo.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../Documents/Max 8/Snapshots",
+				"patcherrelativepath" : "../../../Documents/Max 8/Snapshots",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
