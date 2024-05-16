@@ -1,0 +1,35 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Space Echo.amxd",
+	"origin" : "Space Echo.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 1,
+	"snapshot" : 	{
+		"name" : "Space Echo.amxd",
+		"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Space Echo/Space Echo.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"WarbleAmount" : 14.0,
+				"WarbleSpeed" : 43.0,
+				"bpm" : 30.0,
+				"clipping" : 0.63,
+				"feedback" : 47.0,
+				"highpass" : 220.0,
+				"inertia" : 2.687,
+				"live.menu" : 13.0,
+				"lowpass" : 3280.0,
+				"reverb_wetdry" : 27.200001,
+				"revtime" : 2800.0,
+				"tempo" : 0.0,
+				"wet/dry" : 100.0
+			}
+
+		}
+,
+		"active" : 1
+	}
+
+}
