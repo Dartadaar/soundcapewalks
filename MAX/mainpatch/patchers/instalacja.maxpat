@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 84.0, 1468.0, 705.0 ],
+		"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -83,8 +83,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1427.0, 496.0, 69.0, 22.0 ],
-					"text" : "0, -80 1000"
+					"patching_rect" : [ 1427.0, 496.0, 76.0, 22.0 ],
+					"text" : "0, -80 20000"
 				}
 
 			}
@@ -107,8 +107,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1344.792368173599243, 496.0, 69.0, 22.0 ],
-					"text" : "-80, 0 1000"
+					"patching_rect" : [ 1344.792368173599243, 496.0, 76.0, 22.0 ],
+					"text" : "-80, 0 20000"
 				}
 
 			}
@@ -129,8 +129,8 @@
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "multichannelsignal" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "multichannelsignal", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -142,7 +142,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
+						"rect" : [ 35.0, 84.0, 1468.0, 705.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -172,6 +172,30 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 1402.0, 752.678571403026581, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-1",
+									"index" : 2,
+									"maxclass" : "outlet",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1692.025947341918936, 1496.5, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-70",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -189,7 +213,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 2965.0, 1082.0, 187.0, 33.0 ],
+									"patching_rect" : [ 2965.0, 1082.0, 187.0, 34.0 ],
 									"text" : "us.zerogravity triggers us.slicer's notes upon ball collisiion",
 									"textjustification" : 2
 								}
@@ -202,7 +226,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 747.0, 609.0, 157.0, 33.0 ],
+									"patching_rect" : [ 747.0, 609.0, 157.0, 34.0 ],
 									"text" : "us.probability [1bit]: set probability for an output of 1",
 									"textjustification" : 2
 								}
@@ -215,7 +239,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1756.0, 840.0, 150.0, 100.0 ],
+									"patching_rect" : [ 1756.0, 840.0, 150.0, 103.0 ],
 									"text" : "us.gameoflife triggers many effect settings (us.glitchloopers, us.granulator, us.reversedstretch, us.microlooper, us.slicer, ...)"
 								}
 
@@ -227,7 +251,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1453.0, 335.0, 150.0, 47.0 ],
+									"patching_rect" : [ 1453.0, 335.0, 150.0, 48.0 ],
 									"text" : "us.amplitudefollower follows the amplitude of the incoming audio signal"
 								}
 
@@ -239,7 +263,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1604.0, 475.0, 150.0, 47.0 ],
+									"patching_rect" : [ 1604.0, 475.0, 150.0, 48.0 ],
 									"text" : "this us.compare triggers the us.gameoflife to add active cells to the grid"
 								}
 
@@ -251,7 +275,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1174.0, 475.0, 150.0, 60.0 ],
+									"patching_rect" : [ 1174.0, 475.0, 150.0, 62.0 ],
 									"text" : "this us.compare triggers the us.probability [1bit] modules whenever its value exceeds 64",
 									"textjustification" : 2
 								}
@@ -264,7 +288,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 188.0, 103.0, 164.0, 33.0 ],
+									"patching_rect" : [ 188.0, 103.0, 164.0, 34.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 16.0, 94.0, 266.0, 20.0 ],
 									"text" : "sample recorded by percussionist Tom De Cock"
@@ -314,9 +338,9 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 185.0, 20.0, 286.0, 62.0 ],
+									"patching_rect" : [ 185.0, 20.0, 286.0, 64.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 14.0, 13.250969529151917, 286.0, 62.0 ],
+									"presentation_rect" : [ 14.0, 13.250969529151917, 286.0, 64.0 ],
 									"text" : "Example 13",
 									"textcolor" : [ 0.2039215686, 0.2039215686, 0.2039215686, 1.0 ]
 								}
@@ -1549,8 +1573,17 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"order" : 0,
+									"source" : [ "obj-12", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-7", 2 ],
 									"midpoints" : [ 1411.5, 1234.5, 841.833333333333371, 1234.5 ],
+									"order" : 1,
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -1666,6 +1699,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-50", 0 ],
 									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -2404,8 +2444,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1092.0, 491.661011695861816, 69.0, 22.0 ],
-					"text" : "0, -80 1000"
+					"patching_rect" : [ 1092.0, 491.661011695861816, 76.0, 22.0 ],
+					"text" : "0, -80 20000"
 				}
 
 			}
@@ -2428,8 +2468,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1010.135592937469482, 491.661011695861816, 69.0, 22.0 ],
-					"text" : "-80, 0 1000"
+					"patching_rect" : [ 1010.135592937469482, 491.661011695861816, 76.0, 22.0 ],
+					"text" : "-80, 0 20000"
 				}
 
 			}
@@ -2452,8 +2492,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 709.0, 491.661011695861816, 69.0, 22.0 ],
-					"text" : "0, -80 1000"
+					"patching_rect" : [ 709.0, 491.661011695861816, 76.0, 22.0 ],
+					"text" : "0, -80 20000"
 				}
 
 			}
@@ -2476,8 +2516,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 627.135592937469482, 491.661011695861816, 69.0, 22.0 ],
-					"text" : "-80, 0 1000"
+					"patching_rect" : [ 627.135592937469482, 491.661011695861816, 76.0, 22.0 ],
+					"text" : "-80, 0 20000"
 				}
 
 			}
@@ -2500,8 +2540,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 341.0, 485.661011695861816, 69.0, 22.0 ],
-					"text" : "0, -80 1000"
+					"patching_rect" : [ 341.0, 485.661011695861816, 76.0, 22.0 ],
+					"text" : "0, -80 20000"
 				}
 
 			}
@@ -2524,8 +2564,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 259.135592937469482, 485.661011695861816, 69.0, 22.0 ],
-					"text" : "-80, 0 1000"
+					"patching_rect" : [ 229.867299556732178, 485.661011695861816, 76.0, 22.0 ],
+					"text" : "-80, 0 20000"
 				}
 
 			}
@@ -2738,17 +2778,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1035.0, 111.0, 150.0, 62.0 ],
 					"text" : "*losowanie scen co 30sec\n*losowanie numeru sceny\n*przejście \n*zmiana outputów"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-17",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1026.0, 407.661011695861816, 150.0, 20.0 ],
-					"text" : "czeba dopisac ackęt"
 				}
 
 			}
@@ -3750,7 +3779,7 @@
 														"filename" : "µKflux.amxd.maxsnap",
 														"filepath" : "Mac SSD:/Users/andrewbenson/Documents/Max 7/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "f09a07c6f5efb17eb101b9fcbab780dd"
+														"snapshotfileid" : "04a0a58e9da6bf7835a37f537b019f16"
 													}
 
 												}
@@ -3771,11 +3800,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-24",
-									"linecount" : 12,
+									"linecount" : 10,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 717.5, 374.0, 66.0, 190.0 ],
+									"patching_rect" : [ 717.5, 374.0, 70.0, 160.0 ],
 									"text" : "in order to correctly work in Max, CV must be enabled"
 								}
 
@@ -3917,7 +3946,7 @@
 														"filename" : "µEXT.amxd.maxsnap",
 														"filepath" : "Mac SSD:/Users/andrewbenson/Documents/Max 7/Snapshots",
 														"filepos" : -1,
-														"snapshotfileid" : "e4f2fc4384864845685d89b15321bd9c"
+														"snapshotfileid" : "1eaeddc4d509d9737d37c469829d7c9d"
 													}
 
 												}
@@ -4176,7 +4205,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 2,
-					"outlettype" : [ "multichannelsignal", "bang" ],
+					"outlettype" : [ "multichannelsignal", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
 						"appversion" : 						{
@@ -4217,6 +4246,262 @@
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-143",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 269.4992526825813, 1048.028947544097946, 70.0, 22.0 ],
+									"text" : "loadmess 6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-142",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 544.077368502616878, 1029.361700713634491, 81.0, 22.0 ],
+									"text" : "loadmess -25"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-141",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 264.0, 703.0, 29.5, 22.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-139",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 312.0, 703.0, 29.5, 22.0 ],
+									"text" : "1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-137",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 264.0, 591.958995721096016, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-136",
+									"maxclass" : "toggle",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 264.0, 628.51581051086805, 24.0, 24.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-134",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 264.0, 661.113999089950539, 63.0, 22.0 ],
+									"text" : "metro 200"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"autosave" : 1,
+									"bgmode" : 1,
+									"border" : 0,
+									"clickthrough" : 0,
+									"enablehscroll" : 0,
+									"enablevscroll" : 0,
+									"id" : "obj-113",
+									"linecount" : 2,
+									"lockeddragscroll" : 0,
+									"lockedsize" : 0,
+									"maxclass" : "newobj",
+									"numinlets" : 3,
+									"numoutlets" : 4,
+									"offset" : [ 0.0, 0.0 ],
+									"outlettype" : [ "signal", "signal", "", "" ],
+									"patching_rect" : [ 269.4992526825813, 1200.736842155456543, 426.0, 196.0 ],
+									"presentation_linecount" : 2,
+									"saved_attribute_attributes" : 									{
+										"valueof" : 										{
+											"parameter_invisible" : 1,
+											"parameter_longname" : "amxd~[6]",
+											"parameter_shortname" : "amxd~[6]",
+											"parameter_type" : 3
+										}
+
+									}
+,
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 1,
+										"patchername" : "Tapped Delay.amxd",
+										"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Tapped Delay/Tapped Delay.amxd"
+									}
+,
+									"snapshot" : 									{
+										"filetype" : "C74Snapshot",
+										"version" : 2,
+										"minorversion" : 0,
+										"name" : "snapshotlist",
+										"origin" : "max~",
+										"type" : "list",
+										"subtype" : "Undefined",
+										"embed" : 1,
+										"snapshot" : 										{
+											"name" : "Tapped Delay.amxd",
+											"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Tapped Delay/Tapped Delay.amxd",
+											"valuedictionary" : 											{
+												"parameter_values" : 												{
+													"bpm" : 30.0,
+													"centerPan" : 0.0,
+													"feedback" : 30.708661417322936,
+													"randDelay" : 0.0,
+													"randPan" : 0.0,
+													"tempo" : 0.0,
+													"time" : 13.0,
+													"wet/dry" : 52.755905511810965,
+													"blob" : 													{
+														"levels" : [ 0.71, 0.05, 0.622222, 0.666667, 0.722222, 0.766667, 0.833333, 0.811111, 0.722222, 0.588889, 0.455556, 0.388889, 0.366667, 0.333333, 0.311111, 0.222222 ],
+														"positions" : [ 0.0, 0.242718, 0.029126, -0.203883, -0.398058, -0.436893, -0.029126, 0.320388, 0.572816, 0.572816, 0.514563, 0.184466, -0.165049, -0.165049, -0.087379, 0.0 ]
+													}
+
+												}
+
+											}
+
+										}
+,
+										"snapshotlist" : 										{
+											"current_snapshot" : 0,
+											"entries" : [ 												{
+													"filetype" : "C74Snapshot",
+													"version" : 2,
+													"minorversion" : 0,
+													"name" : "Tapped Delay.amxd",
+													"origin" : "Tapped Delay.amxd",
+													"type" : "amxd",
+													"subtype" : "Undefined",
+													"embed" : 0,
+													"snapshot" : 													{
+														"name" : "Tapped Delay.amxd",
+														"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Tapped Delay/Tapped Delay.amxd",
+														"valuedictionary" : 														{
+															"parameter_values" : 															{
+																"bpm" : 30.0,
+																"centerPan" : 0.0,
+																"feedback" : 30.708661417322936,
+																"randDelay" : 0.0,
+																"randPan" : 0.0,
+																"tempo" : 0.0,
+																"time" : 13.0,
+																"wet/dry" : 52.755905511810965,
+																"blob" : 																{
+																	"levels" : [ 0.71, 0.05, 0.622222, 0.666667, 0.722222, 0.766667, 0.833333, 0.811111, 0.722222, 0.588889, 0.455556, 0.388889, 0.366667, 0.333333, 0.311111, 0.222222 ],
+																	"positions" : [ 0.0, 0.242718, 0.029126, -0.203883, -0.398058, -0.436893, -0.029126, 0.320388, 0.572816, 0.572816, 0.514563, 0.184466, -0.165049, -0.165049, -0.087379, 0.0 ]
+																}
+
+															}
+
+														}
+
+													}
+,
+													"fileref" : 													{
+														"name" : "Tapped Delay.amxd",
+														"filename" : "Tapped Delay.amxd.maxsnap",
+														"filepath" : "~/Desktop/soundcapewalks/MAX/mainpatch/data",
+														"filepos" : -1,
+														"snapshotfileid" : "e9291b5722f9574f5657abe7f2f7ae87"
+													}
+
+												}
+ ]
+										}
+
+									}
+,
+									"text" : "amxd~ \"C74:/packages/Max for Live/patchers/Max Audio Effect/Tapped Delay/Tapped Delay.amxd\"",
+									"varname" : "amxd~[2]",
+									"viewvisibility" : 1
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"basictuning" : 440,
+									"data" : 									{
+										"clips" : [ 											{
+												"absolutepath" : "C:/Users/patry/Desktop/soundcapewalks/MAX/mainpatch/media/stereo_fontannadasz.wav",
+												"filename" : "stereo_fontannadasz.wav",
+												"filekind" : "audiofile",
+												"id" : "u602006813",
+												"selection" : [ 0.0, 1.0 ],
+												"loop" : 1,
+												"content_state" : 												{
+													"loop" : 1
+												}
+
+											}
+ ]
+									}
+,
+									"followglobaltempo" : 0,
+									"formantcorrection" : 0,
+									"id" : "obj-109",
+									"maxclass" : "playlist~",
+									"mode" : "basic",
+									"numinlets" : 1,
+									"numoutlets" : 5,
+									"originallength" : [ 0.0, "ticks" ],
+									"originaltempo" : 120.0,
+									"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 258.642864346504211, 990.0, 150.0, 30.0 ],
+									"pitchcorrection" : 0,
+									"quality" : "basic",
+									"timestretch" : [ 0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 258.642864346504211, 891.0, 58.0, 22.0 ],
+									"text" : "loadbang"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"comment" : "",
 									"id" : "obj-116",
@@ -4265,142 +4550,6 @@
 							}
 , 							{
 								"box" : 								{
-									"autosave" : 1,
-									"bgmode" : 1,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-112",
-									"linecount" : 2,
-									"lockeddragscroll" : 0,
-									"lockedsize" : 0,
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 4,
-									"offset" : [ 0.0, 0.0 ],
-									"outlettype" : [ "signal", "signal", "", "" ],
-									"patching_rect" : [ 309.268464451685304, 1209.692314147949219, 521.0, 196.0 ],
-									"saved_attribute_attributes" : 									{
-										"valueof" : 										{
-											"parameter_invisible" : 1,
-											"parameter_longname" : "amxd~[1]",
-											"parameter_shortname" : "amxd~[1]",
-											"parameter_type" : 3
-										}
-
-									}
-,
-									"saved_object_attributes" : 									{
-										"parameter_enable" : 1,
-										"patchername" : "Max SpectralDelay.amxd",
-										"patchername_fallback" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralDelay/Max SpectralDelay.amxd"
-									}
-,
-									"snapshot" : 									{
-										"filetype" : "C74Snapshot",
-										"version" : 2,
-										"minorversion" : 0,
-										"name" : "snapshotlist",
-										"origin" : "max~",
-										"type" : "list",
-										"subtype" : "Undefined",
-										"embed" : 1,
-										"snapshot" : 										{
-											"name" : "Max SpectralDelay.amxd",
-											"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralDelay/Max SpectralDelay.amxd",
-											"valuedictionary" : 											{
-												"parameter_values" : 												{
-													"DelayRandStep" : 10.0,
-													"DelayRange" : 2000.0,
-													"Dry/Wet" : 75.0,
-													"FeedbackRandStep" : 10.0,
-													"FeedbackRange" : 50.0,
-													"Gain" : 0.0,
-													"blob" : 													{
-														"Delays" : [ 0.464844, 0.488281, 0.519531, 0.542969, 0.519531, 0.484375, 0.488281, 0.46875, 0.453125, 0.488281, 0.464844, 0.433594, 0.453125, 0.464844, 0.429688, 0.421875, 0.441406, 0.429688, 0.433594, 0.457031, 0.472656, 0.445312, 0.476562, 0.457031, 0.445312, 0.464844, 0.464844, 0.429688, 0.429688, 0.40625, 0.417969, 0.453125, 0.457031, 0.472656, 0.496094, 0.488281, 0.46875, 0.496094, 0.460938, 0.464844, 0.445312, 0.417969, 0.441406, 0.40625, 0.429688, 0.429688, 0.441406, 0.414062, 0.386719, 0.363281, 0.378906, 0.414062, 0.445312, 0.421875, 0.417969, 0.382812, 0.347656, 0.363281, 0.339844, 0.359375, 0.371094, 0.359375, 0.390625, 0.402344, 0.425781, 0.398438, 0.375, 0.375, 0.367188, 0.371094, 0.402344, 0.414062, 0.410156, 0.414062, 0.402344, 0.378906, 0.347656, 0.34375, 0.363281, 0.394531, 0.429688, 0.457031, 0.484375, 0.519531, 0.550781, 0.582031, 0.570312, 0.570312, 0.582031, 0.585938, 0.5625, 0.589844, 0.578125, 0.558594, 0.5625, 0.550781, 0.558594, 0.585938, 0.601562, 0.597656, 0.5625, 0.570312, 0.539062, 0.515625, 0.527344, 0.550781, 0.554688, 0.535156, 0.503906, 0.539062, 0.566406, 0.585938, 0.613281, 0.636719, 0.664062, 0.667969, 0.667969, 0.695312, 0.714844, 0.730469, 0.722656, 0.746094, 0.777344, 0.773438, 0.796875, 0.808594, 0.785156, 0.808594, 0.84375, 0.839844, 0.863281, 0.890625, 0.882812, 0.894531, 0.871094, 0.90625, 0.917969, 0.882812, 0.882812, 0.902344, 0.871094, 0.855469, 0.886719, 0.878906, 0.878906, 0.878906, 0.859375, 0.878906, 0.855469, 0.851562, 0.820312, 0.84375, 0.8125, 0.816406, 0.800781, 0.804688, 0.777344, 0.765625, 0.789062, 0.761719, 0.761719, 0.726562, 0.699219, 0.730469, 0.75, 0.738281, 0.730469, 0.714844, 0.730469, 0.761719, 0.75, 0.734375, 0.703125, 0.738281, 0.707031, 0.695312, 0.675781, 0.679688, 0.667969, 0.640625, 0.675781, 0.667969, 0.699219, 0.703125, 0.675781, 0.691406, 0.691406, 0.683594, 0.703125, 0.703125, 0.71875, 0.71875, 0.726562, 0.761719, 0.738281, 0.773438, 0.777344, 0.765625, 0.738281, 0.742188, 0.769531, 0.769531, 0.765625, 0.792969, 0.765625, 0.785156, 0.761719, 0.734375, 0.699219, 0.667969, 0.6875, 0.703125, 0.699219, 0.664062, 0.644531, 0.636719, 0.621094, 0.652344, 0.6875, 0.671875, 0.644531, 0.664062, 0.636719, 0.652344, 0.628906, 0.648438, 0.617188, 0.625, 0.652344, 0.621094, 0.601562, 0.582031, 0.597656, 0.5625, 0.539062, 0.574219, 0.582031, 0.574219, 0.589844, 0.621094, 0.652344, 0.632812, 0.617188, 0.636719, 0.660156, 0.652344, 0.632812, 0.65625, 0.675781, 0.679688, 0.679688, 0.6875, 0.65625, 0.648438, 0.675781, 0.679688 ],
-														"Feedbacks" : [ 0.710938, 0.746094, 0.71875, 0.71875, 0.753906, 0.734375, 0.707031, 0.734375, 0.746094, 0.742188, 0.753906, 0.773438, 0.753906, 0.789062, 0.792969, 0.796875, 0.796875, 0.820312, 0.820312, 0.804688, 0.808594, 0.832031, 0.8125, 0.816406, 0.796875, 0.808594, 0.789062, 0.765625, 0.738281, 0.738281, 0.71875, 0.710938, 0.703125, 0.710938, 0.699219, 0.675781, 0.675781, 0.6875, 0.652344, 0.667969, 0.644531, 0.664062, 0.648438, 0.628906, 0.648438, 0.664062, 0.636719, 0.664062, 0.671875, 0.683594, 0.714844, 0.679688, 0.707031, 0.742188, 0.734375, 0.742188, 0.726562, 0.71875, 0.742188, 0.714844, 0.730469, 0.695312, 0.671875, 0.652344, 0.6875, 0.71875, 0.738281, 0.746094, 0.722656, 0.726562, 0.742188, 0.722656, 0.707031, 0.730469, 0.710938, 0.675781, 0.691406, 0.703125, 0.722656, 0.699219, 0.703125, 0.714844, 0.738281, 0.773438, 0.789062, 0.796875, 0.78125, 0.804688, 0.804688, 0.835938, 0.871094, 0.898438, 0.882812, 0.851562, 0.875, 0.851562, 0.835938, 0.8125, 0.84375, 0.84375, 0.875, 0.863281, 0.84375, 0.8125, 0.828125, 0.828125, 0.835938, 0.839844, 0.875, 0.851562, 0.832031, 0.839844, 0.808594, 0.785156, 0.757812, 0.746094, 0.75, 0.773438, 0.804688, 0.800781, 0.804688, 0.773438, 0.742188, 0.722656, 0.722656, 0.746094, 0.734375, 0.722656, 0.695312, 0.703125, 0.683594, 0.667969, 0.65625, 0.644531, 0.632812, 0.640625, 0.65625, 0.691406, 0.726562, 0.75, 0.734375, 0.765625, 0.75, 0.742188, 0.761719, 0.734375, 0.734375, 0.730469, 0.726562, 0.695312, 0.679688, 0.679688, 0.660156, 0.648438, 0.683594, 0.667969, 0.6875, 0.683594, 0.648438, 0.632812, 0.628906, 0.609375, 0.59375, 0.597656, 0.574219, 0.609375, 0.617188, 0.644531, 0.625, 0.652344, 0.648438, 0.625, 0.660156, 0.640625, 0.613281, 0.644531, 0.617188, 0.644531, 0.625, 0.625, 0.625, 0.660156, 0.648438, 0.632812, 0.664062, 0.664062, 0.636719, 0.613281, 0.617188, 0.617188, 0.617188, 0.605469, 0.613281, 0.59375, 0.625, 0.648438, 0.664062, 0.664062, 0.695312, 0.695312, 0.664062, 0.691406, 0.660156, 0.636719, 0.605469, 0.625, 0.660156, 0.683594, 0.664062, 0.691406, 0.660156, 0.65625, 0.644531, 0.628906, 0.648438, 0.683594, 0.675781, 0.65625, 0.664062, 0.664062, 0.660156, 0.640625, 0.605469, 0.574219, 0.585938, 0.609375, 0.59375, 0.601562, 0.589844, 0.589844, 0.582031, 0.578125, 0.570312, 0.539062, 0.511719, 0.511719, 0.515625, 0.527344, 0.5, 0.535156, 0.558594, 0.574219, 0.546875, 0.574219, 0.550781, 0.574219, 0.570312, 0.558594, 0.539062, 0.519531, 0.492188, 0.492188, 0.46875, 0.496094, 0.496094, 0.507812 ]
-													}
-
-												}
-
-											}
-
-										}
-,
-										"snapshotlist" : 										{
-											"current_snapshot" : 0,
-											"entries" : [ 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Max SpectralDelay.amxd",
-													"origin" : "Max SpectralDelay.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 1,
-													"snapshot" : 													{
-														"name" : "Max SpectralDelay.amxd",
-														"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralDelay/Max SpectralDelay.amxd",
-														"valuedictionary" : 														{
-															"parameter_values" : 															{
-																"DelayRandStep" : 10.0,
-																"DelayRange" : 2000.0,
-																"Dry/Wet" : 75.0,
-																"FeedbackRandStep" : 10.0,
-																"FeedbackRange" : 50.0,
-																"Gain" : 0.0,
-																"blob" : 																{
-																	"Delays" : [ 0.464844, 0.488281, 0.519531, 0.542969, 0.519531, 0.484375, 0.488281, 0.46875, 0.453125, 0.488281, 0.464844, 0.433594, 0.453125, 0.464844, 0.429688, 0.421875, 0.441406, 0.429688, 0.433594, 0.457031, 0.472656, 0.445312, 0.476562, 0.457031, 0.445312, 0.464844, 0.464844, 0.429688, 0.429688, 0.40625, 0.417969, 0.453125, 0.457031, 0.472656, 0.496094, 0.488281, 0.46875, 0.496094, 0.460938, 0.464844, 0.445312, 0.417969, 0.441406, 0.40625, 0.429688, 0.429688, 0.441406, 0.414062, 0.386719, 0.363281, 0.378906, 0.414062, 0.445312, 0.421875, 0.417969, 0.382812, 0.347656, 0.363281, 0.339844, 0.359375, 0.371094, 0.359375, 0.390625, 0.402344, 0.425781, 0.398438, 0.375, 0.375, 0.367188, 0.371094, 0.402344, 0.414062, 0.410156, 0.414062, 0.402344, 0.378906, 0.347656, 0.34375, 0.363281, 0.394531, 0.429688, 0.457031, 0.484375, 0.519531, 0.550781, 0.582031, 0.570312, 0.570312, 0.582031, 0.585938, 0.5625, 0.589844, 0.578125, 0.558594, 0.5625, 0.550781, 0.558594, 0.585938, 0.601562, 0.597656, 0.5625, 0.570312, 0.539062, 0.515625, 0.527344, 0.550781, 0.554688, 0.535156, 0.503906, 0.539062, 0.566406, 0.585938, 0.613281, 0.636719, 0.664062, 0.667969, 0.667969, 0.695312, 0.714844, 0.730469, 0.722656, 0.746094, 0.777344, 0.773438, 0.796875, 0.808594, 0.785156, 0.808594, 0.84375, 0.839844, 0.863281, 0.890625, 0.882812, 0.894531, 0.871094, 0.90625, 0.917969, 0.882812, 0.882812, 0.902344, 0.871094, 0.855469, 0.886719, 0.878906, 0.878906, 0.878906, 0.859375, 0.878906, 0.855469, 0.851562, 0.820312, 0.84375, 0.8125, 0.816406, 0.800781, 0.804688, 0.777344, 0.765625, 0.789062, 0.761719, 0.761719, 0.726562, 0.699219, 0.730469, 0.75, 0.738281, 0.730469, 0.714844, 0.730469, 0.761719, 0.75, 0.734375, 0.703125, 0.738281, 0.707031, 0.695312, 0.675781, 0.679688, 0.667969, 0.640625, 0.675781, 0.667969, 0.699219, 0.703125, 0.675781, 0.691406, 0.691406, 0.683594, 0.703125, 0.703125, 0.71875, 0.71875, 0.726562, 0.761719, 0.738281, 0.773438, 0.777344, 0.765625, 0.738281, 0.742188, 0.769531, 0.769531, 0.765625, 0.792969, 0.765625, 0.785156, 0.761719, 0.734375, 0.699219, 0.667969, 0.6875, 0.703125, 0.699219, 0.664062, 0.644531, 0.636719, 0.621094, 0.652344, 0.6875, 0.671875, 0.644531, 0.664062, 0.636719, 0.652344, 0.628906, 0.648438, 0.617188, 0.625, 0.652344, 0.621094, 0.601562, 0.582031, 0.597656, 0.5625, 0.539062, 0.574219, 0.582031, 0.574219, 0.589844, 0.621094, 0.652344, 0.632812, 0.617188, 0.636719, 0.660156, 0.652344, 0.632812, 0.65625, 0.675781, 0.679688, 0.679688, 0.6875, 0.65625, 0.648438, 0.675781, 0.679688 ],
-																	"Feedbacks" : [ 0.710938, 0.746094, 0.71875, 0.71875, 0.753906, 0.734375, 0.707031, 0.734375, 0.746094, 0.742188, 0.753906, 0.773438, 0.753906, 0.789062, 0.792969, 0.796875, 0.796875, 0.820312, 0.820312, 0.804688, 0.808594, 0.832031, 0.8125, 0.816406, 0.796875, 0.808594, 0.789062, 0.765625, 0.738281, 0.738281, 0.71875, 0.710938, 0.703125, 0.710938, 0.699219, 0.675781, 0.675781, 0.6875, 0.652344, 0.667969, 0.644531, 0.664062, 0.648438, 0.628906, 0.648438, 0.664062, 0.636719, 0.664062, 0.671875, 0.683594, 0.714844, 0.679688, 0.707031, 0.742188, 0.734375, 0.742188, 0.726562, 0.71875, 0.742188, 0.714844, 0.730469, 0.695312, 0.671875, 0.652344, 0.6875, 0.71875, 0.738281, 0.746094, 0.722656, 0.726562, 0.742188, 0.722656, 0.707031, 0.730469, 0.710938, 0.675781, 0.691406, 0.703125, 0.722656, 0.699219, 0.703125, 0.714844, 0.738281, 0.773438, 0.789062, 0.796875, 0.78125, 0.804688, 0.804688, 0.835938, 0.871094, 0.898438, 0.882812, 0.851562, 0.875, 0.851562, 0.835938, 0.8125, 0.84375, 0.84375, 0.875, 0.863281, 0.84375, 0.8125, 0.828125, 0.828125, 0.835938, 0.839844, 0.875, 0.851562, 0.832031, 0.839844, 0.808594, 0.785156, 0.757812, 0.746094, 0.75, 0.773438, 0.804688, 0.800781, 0.804688, 0.773438, 0.742188, 0.722656, 0.722656, 0.746094, 0.734375, 0.722656, 0.695312, 0.703125, 0.683594, 0.667969, 0.65625, 0.644531, 0.632812, 0.640625, 0.65625, 0.691406, 0.726562, 0.75, 0.734375, 0.765625, 0.75, 0.742188, 0.761719, 0.734375, 0.734375, 0.730469, 0.726562, 0.695312, 0.679688, 0.679688, 0.660156, 0.648438, 0.683594, 0.667969, 0.6875, 0.683594, 0.648438, 0.632812, 0.628906, 0.609375, 0.59375, 0.597656, 0.574219, 0.609375, 0.617188, 0.644531, 0.625, 0.652344, 0.648438, 0.625, 0.660156, 0.640625, 0.613281, 0.644531, 0.617188, 0.644531, 0.625, 0.625, 0.625, 0.660156, 0.648438, 0.632812, 0.664062, 0.664062, 0.636719, 0.613281, 0.617188, 0.617188, 0.617188, 0.605469, 0.613281, 0.59375, 0.625, 0.648438, 0.664062, 0.664062, 0.695312, 0.695312, 0.664062, 0.691406, 0.660156, 0.636719, 0.605469, 0.625, 0.660156, 0.683594, 0.664062, 0.691406, 0.660156, 0.65625, 0.644531, 0.628906, 0.648438, 0.683594, 0.675781, 0.65625, 0.664062, 0.664062, 0.660156, 0.640625, 0.605469, 0.574219, 0.585938, 0.609375, 0.59375, 0.601562, 0.589844, 0.589844, 0.582031, 0.578125, 0.570312, 0.539062, 0.511719, 0.511719, 0.515625, 0.527344, 0.5, 0.535156, 0.558594, 0.574219, 0.546875, 0.574219, 0.550781, 0.574219, 0.570312, 0.558594, 0.539062, 0.519531, 0.492188, 0.492188, 0.46875, 0.496094, 0.496094, 0.507812 ]
-																}
-
-															}
-
-														}
-
-													}
-,
-													"fileref" : 													{
-														"name" : "Max SpectralDelay.amxd",
-														"filename" : "Max SpectralDelay.amxd.maxsnap",
-														"filepath" : "~/GitHub/soundcapewalks/MAX/mainpatch/data",
-														"filepos" : -1,
-														"snapshotfileid" : "f0617ab96c4a8761ec164a3cdca6aebf"
-													}
-
-												}
-, 												{
-													"filetype" : "C74Snapshot",
-													"version" : 2,
-													"minorversion" : 0,
-													"name" : "Max SpectralDelay.amxd",
-													"origin" : "Max SpectralDelay.amxd",
-													"type" : "amxd",
-													"subtype" : "Undefined",
-													"embed" : 0,
-													"fileref" : 													{
-														"name" : "Max SpectralDelay.amxd",
-														"filename" : "Max SpectralDelay.amxd.maxsnap",
-														"filepath" : "~/Documents/Max 8/Snapshots",
-														"filepos" : -1,
-														"snapshotfileid" : "5f6e747df132c9a4a5959d8aa8c6436f"
-													}
-
-												}
- ]
-										}
-
-									}
-,
-									"text" : "amxd~ \"C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralDelay/Max SpectralDelay.amxd\"",
-									"varname" : "amxd~[1]",
-									"viewvisibility" : 1
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"id" : "obj-111",
 									"lastchannelcount" : 0,
 									"maxclass" : "live.gain~",
@@ -4439,44 +4588,6 @@
 							}
 , 							{
 								"box" : 								{
-									"basictuning" : 440,
-									"channelcount" : 6,
-									"data" : 									{
-										"clips" : [ 											{
-												"absolutepath" : "C:/Users/patry/Downloads/Folia SS_koksowe Duo.wav",
-												"filename" : "Folia SS_koksowe Duo.wav",
-												"filekind" : "audiofile",
-												"id" : "u939002056",
-												"selection" : [ 0.0, 1.0 ],
-												"loop" : 0,
-												"content_state" : 												{
-
-												}
-
-											}
- ]
-									}
-,
-									"followglobaltempo" : 0,
-									"formantcorrection" : 0,
-									"id" : "obj-107",
-									"maxclass" : "mc.playlist~",
-									"mode" : "basic",
-									"numinlets" : 1,
-									"numoutlets" : 4,
-									"originallength" : [ 0.0, "ticks" ],
-									"originaltempo" : 120.0,
-									"outlettype" : [ "multichannelsignal", "signal", "", "dictionary" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 258.642864346504211, 969.500001788139343, 150.0, 30.0 ],
-									"pitchcorrection" : 0,
-									"quality" : "basic",
-									"timestretch" : [ 0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"autosave" : 1,
 									"bgmode" : 1,
 									"border" : 0,
@@ -4493,6 +4604,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "" ],
 									"patching_rect" : [ 458.4992526825813, 831.361700713634491, 285.0, 196.0 ],
+									"presentation_linecount" : 2,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -4582,7 +4694,7 @@
 														"filename" : "Space Echo.amxd.maxsnap",
 														"filepath" : "~/GitHub/soundcapewalks/MAX/mainpatch/data",
 														"filepos" : -1,
-														"snapshotfileid" : "fde39c32535afca4a5b6a8d4f4c5a00b"
+														"snapshotfileid" : "835316c8dcab2835f9fef0e3b1018898"
 													}
 
 												}
@@ -5381,7 +5493,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1035.104637503623962, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 16 8 16 32"
+									"text" : "pattern 16 8 4 8"
 								}
 
 							}
@@ -5671,7 +5783,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 817.65749990940094, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 4 8 8 4"
+									"text" : "pattern 16 32 32 32"
 								}
 
 							}
@@ -5961,7 +6073,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 602.040810585021973, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 4 32 32 8"
+									"text" : "pattern 4 32 4 32"
 								}
 
 							}
@@ -9174,7 +9286,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, 0.797581, 0, 536.0, 0.058768, 0, 592.0, 0.636785, 0, 730.0, 0.10803, 0, 814.0, 0.968235, 0, 863.0, 0.922098, 0, 907.0, 0.667261, 0, 925.0, 0.10803, 0 ],
+									"addpoints" : [ 0.0, 0.797581, 0, 602.0, 0.552632, 0, 613.0, 0.248888, 0, 650.0, 0.264629, 0, 739.0, 0.120907, 0, 756.0, 0.264629, 0, 784.0, 0.349845, 0, 901.0, 0.923706, 0 ],
 									"id" : "obj-41",
 									"maxclass" : "function",
 									"numinlets" : 1,
@@ -12346,7 +12458,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, 0.797581, 0, 262.0, 0.122779, 0, 774.0, 0.301621, 0, 821.0, 0.799786, 0, 827.0, 0.647751, 0, 877.0, 0.385288, 0, 885.0, 0.122779, 0, 936.0, 0.484843, 0 ],
+									"addpoints" : [ 0.0, 0.797581, 0, 395.0, 0.672331, 0, 490.0, 0.419573, 0, 629.0, 0.672331, 0, 838.0, 0.879639, 0, 841.0, 0.879639, 0, 928.0, 0.065108, 0, 959.0, 0.881694, 0 ],
 									"id" : "obj-30",
 									"maxclass" : "function",
 									"numinlets" : 1,
@@ -15518,7 +15630,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, 0.797581, 0, 180.0, 0.91669, 0, 507.0, 0.269387, 0, 649.0, 0.966686, 0, 684.0, 0.056211, 0, 783.0, 0.91669, 0, 877.0, 0.997213, 0, 877.0, 0.776755, 0 ],
+									"addpoints" : [ 0.0, 0.797581, 0, 488.0, 0.63317, 0, 488.0, 0.069418, 0, 528.0, 0.519942, 0, 602.0, 0.069418, 0, 630.0, 0.166264, 0, 648.0, 0.462939, 0, 916.0, 0.67996, 0 ],
 									"id" : "obj-22",
 									"maxclass" : "function",
 									"numinlets" : 1,
@@ -16316,24 +16428,22 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-108", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-4", 1 ],
-									"order" : 0,
-									"source" : [ "obj-107", 0 ]
+									"source" : [ "obj-109", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"order" : 1,
-									"source" : [ "obj-107", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-108", 0 ]
+									"source" : [ "obj-109", 0 ]
 								}
 
 							}
@@ -16346,7 +16456,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-107", 0 ],
+									"destination" : [ "obj-109", 0 ],
 									"source" : [ "obj-110", 0 ]
 								}
 
@@ -16368,14 +16478,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-103", 1 ],
-									"source" : [ "obj-112", 1 ]
+									"source" : [ "obj-113", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-103", 0 ],
-									"source" : [ "obj-112", 0 ]
+									"source" : [ "obj-113", 0 ]
 								}
 
 							}
@@ -16404,8 +16514,57 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-141", 0 ],
+									"source" : [ "obj-134", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-134", 0 ],
+									"source" : [ "obj-136", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-136", 0 ],
+									"source" : [ "obj-137", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-116", 0 ],
+									"source" : [ "obj-139", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-6", 4 ],
 									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-116", 0 ],
+									"source" : [ "obj-141", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-111", 0 ],
+									"source" : [ "obj-142", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"source" : [ "obj-143", 0 ]
 								}
 
 							}
@@ -16611,6 +16770,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-110", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
 									"source" : [ "obj-30", 1 ]
 								}
@@ -16708,14 +16874,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-112", 0 ],
+									"destination" : [ "obj-113", 1 ],
 									"source" : [ "obj-4", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-112", 0 ],
+									"destination" : [ "obj-113", 0 ],
 									"source" : [ "obj-4", 0 ]
 								}
 
@@ -17214,8 +17380,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-116", 0 ],
-									"order" : 0,
+									"destination" : [ "obj-139", 0 ],
+									"order" : 1,
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -17223,7 +17389,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-9", 0 ]
 								}
 
@@ -17251,7 +17417,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-111", 1 ],
+									"order" : 0,
+									"source" : [ "obj-93", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-111", 0 ],
+									"order" : 1,
 									"source" : [ "obj-93", 0 ]
 								}
 
@@ -17332,7 +17507,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 35.0, 84.0, 1468.0, 705.0 ],
+						"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -17454,18 +17629,6 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2964.0, 1618.0, 155.0, 22.0 ],
 									"text" : "if ($i1 == 1) then 100 else 0"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-94",
-									"maxclass" : "toggle",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 2964.0, 1575.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -17707,6 +17870,7 @@
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "" ],
 									"patching_rect" : [ 2471.0, 1284.0, 403.0, 196.0 ],
+									"presentation_linecount" : 2,
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -19364,16 +19528,6 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-108", 0 ],
-									"order" : 1,
-									"source" : [ "obj-104", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-94", 0 ],
-									"midpoints" : [ 2494.5, 831.0, 2973.5, 831.0 ],
-									"order" : 0,
 									"source" : [ "obj-104", 0 ]
 								}
 
@@ -20301,13 +20455,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-95", 0 ],
-									"source" : [ "obj-94", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-96", 0 ],
 									"source" : [ "obj-95", 0 ]
 								}
@@ -21202,24 +21349,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1385.792368173599243, 885.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1265.792368173599243, 977.0, 171.0, 22.0 ],
-					"text" : "udpsend 192.168.76.94 21600"
+					"text" : "udpsend 192.168.1.169 21600"
 				}
 
 			}
@@ -21263,6 +21398,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 3 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"source" : [ "obj-16", 0 ]
 				}
@@ -21272,6 +21414,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-18", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 4 ],
+					"source" : [ "obj-18", 1 ]
 				}
 
 			}
@@ -21389,7 +21538,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"midpoints" : [ 35.0, 242.830505847930908, 1395.292368173599243, 242.830505847930908 ],
 					"order" : 0,
 					"source" : [ "obj-26", 0 ]
@@ -21623,13 +21772,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-59", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
-					"source" : [ "obj-6", 0 ]
 				}
 
 			}
@@ -22018,7 +22160,7 @@
 			"obj-3::obj-49" : [ "amxd~", "amxd~", 0 ],
 			"obj-3::obj-75" : [ "mc.live.gain~[2]", "mc.live.gain~[2]", 0 ],
 			"obj-4::obj-111" : [ "live.gain~[1]", "live.gain~[1]", 0 ],
-			"obj-4::obj-112" : [ "amxd~[1]", "amxd~[1]", 0 ],
+			"obj-4::obj-113" : [ "amxd~[6]", "amxd~[6]", 0 ],
 			"obj-4::obj-4" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-4::obj-93" : [ "amxd~[2]", "amxd~", 0 ],
 			"obj-85::obj-26::obj-12" : [ "record", "record", 0 ],
@@ -22809,19 +22951,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "Max SpectralDelay.amxd",
-				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Max SpectralDelay",
-				"type" : "amxd",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Max SpectralDelay.amxd.maxsnap",
-				"bootpath" : "~/Documents/Max 8/Snapshots",
-				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "Space Echo.amxd",
 				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Space Echo",
 				"type" : "amxd",
@@ -22831,6 +22960,19 @@
 				"name" : "Space Echo.amxd.maxsnap",
 				"bootpath" : "~/Documents/Max 8/Snapshots",
 				"patcherrelativepath" : "../../../../../Documents/Max 8/Snapshots",
+				"type" : "mx@s",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tapped Delay.amxd",
+				"bootpath" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Tapped Delay",
+				"type" : "amxd",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Tapped Delay.amxd.maxsnap",
+				"bootpath" : "~/Desktop/soundcapewalks/MAX/mainpatch/data",
+				"patcherrelativepath" : "../data",
 				"type" : "mx@s",
 				"implicit" : 1
 			}
@@ -22931,6 +23073,13 @@
 			}
 , 			{
 				"name" : "stadion_do_instalacji.wav",
+				"bootpath" : "~/Desktop/soundcapewalks/MAX/mainpatch/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "stereo_fontannadasz.wav",
 				"bootpath" : "~/Desktop/soundcapewalks/MAX/mainpatch/media",
 				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
