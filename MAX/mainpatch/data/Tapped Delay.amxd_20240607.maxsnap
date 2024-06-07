@@ -1,0 +1,35 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "Tapped Delay.amxd",
+	"origin" : "Tapped Delay.amxd",
+	"type" : "amxd",
+	"subtype" : "Undefined",
+	"embed" : 1,
+	"snapshot" : 	{
+		"name" : "Tapped Delay.amxd",
+		"origname" : "C74:/packages/Max for Live/patchers/Max Audio Effect/Tapped Delay/Tapped Delay.amxd",
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"bpm" : 30.0,
+				"centerPan" : 0.0,
+				"feedback" : 18.399999999999999,
+				"randDelay" : 0.0,
+				"randPan" : 0.0,
+				"tempo" : 0.0,
+				"time" : 13.0,
+				"wet/dry" : 86.400002000000001,
+				"blob" : 				{
+					"levels" : [ 0.71, 0.05, 0.622222, 0.666667, 0.722222, 0.766667, 0.833333, 0.811111, 0.722222, 0.588889, 0.455556, 0.388889, 0.366667, 0.333333, 0.311111, 0.222222 ],
+					"positions" : [ 0.0, 0.242718, 0.029126, -0.203883, -0.398058, -0.436893, -0.029126, 0.320388, 0.572816, 0.572816, 0.514563, 0.184466, -0.165049, -0.165049, -0.087379, 0.0 ]
+				}
+
+			}
+
+		}
+,
+		"active" : 1
+	}
+
+}
