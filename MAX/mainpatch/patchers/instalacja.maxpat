@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 58.0, 1468.0, 731.0 ],
+		"rect" : [ 35.0, 32.0, 1468.0, 757.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -2712,7 +2712,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 41.0, 84.0, 1468.0, 705.0 ],
+						"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3608,7 +3608,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "" ],
-									"patching_rect" : [ 16.0, 239.0, 275.0, 196.0 ],
+									"patching_rect" : [ 16.0, 239.0, 114.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -3713,11 +3713,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-24",
-									"linecount" : 8,
+									"linecount" : 7,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 717.5, 374.0, 73.0, 130.0 ],
+									"patching_rect" : [ 717.5, 374.0, 75.0, 112.0 ],
 									"text" : "in order to correctly work in Max, CV must be enabled"
 								}
 
@@ -3769,7 +3769,7 @@
 									"numoutlets" : 4,
 									"offset" : [ 0.0, 0.0 ],
 									"outlettype" : [ "signal", "signal", "", "" ],
-									"patching_rect" : [ 443.0, 239.0, 275.0, 196.0 ],
+									"patching_rect" : [ 443.0, 239.0, 110.0, 22.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_invisible" : 1,
@@ -3980,7 +3980,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-16", 1 ],
-									"order" : 1,
+									"order" : 0,
 									"source" : [ "obj-2", 1 ]
 								}
 
@@ -3996,7 +3996,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-6", 1 ],
-									"order" : 0,
+									"order" : 1,
 									"source" : [ "obj-2", 1 ]
 								}
 
@@ -5390,7 +5390,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1035.104637503623962, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 16 4 16 4"
+									"text" : "pattern 16 4 32 8"
 								}
 
 							}
@@ -5680,7 +5680,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 817.65749990940094, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 32 4 4 16"
+									"text" : "pattern 4 32 8 16"
 								}
 
 							}
@@ -5970,7 +5970,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 602.040810585021973, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 32 4 16 16"
+									"text" : "pattern 16 32 4 16"
 								}
 
 							}
@@ -9183,7 +9183,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, 0.797581, 0, 681.0, 0.139742, 0, 686.0, 0.624472, 0, 728.0, 0.470742, 0, 809.0, 0.874117, 0, 895.0, 0.624472, 0, 923.0, 0.317558, 0, 923.0, 0.996785, 0 ],
+									"addpoints" : [ 0.0, 0.797581, 0, 134.0, 0.764608, 0, 443.0, 0.764608, 0, 638.0, 0.986011, 0, 682.0, 0.946688, 0, 789.0, 0.839696, 0, 934.0, 0.611496, 0, 971.0, 0.946688, 0 ],
 									"classic_curve" : 1,
 									"id" : "obj-41",
 									"maxclass" : "function",
@@ -12356,7 +12356,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, 0.797581, 0, 5.0, 0.505484, 0, 172.0, 0.885169, 0, 584.0, 0.265168, 0, 692.0, 0.885741, 0, 692.0, 0.505484, 0, 806.0, 0.24037, 0, 873.0, 0.654638, 0 ],
+									"addpoints" : [ 0.0, 0.797581, 0, 750.0, 0.929502, 0, 769.0, 0.929502, 0, 787.0, 0.648627, 0, 817.0, 0.362308, 0, 868.0, 0.37448, 0, 929.0, 0.202644, 0, 954.0, 0.651604, 0 ],
 									"classic_curve" : 1,
 									"id" : "obj-30",
 									"maxclass" : "function",
@@ -15529,7 +15529,7 @@
 							}
 , 							{
 								"box" : 								{
-									"addpoints" : [ 0.0, 0.797581, 0, 268.0, 0.59798, 0, 318.0, 0.061814, 0, 447.0, 0.743283, 0, 509.0, 0.061814, 0, 592.0, 0.229655, 0, 720.0, 0.22945, 0, 754.0, 0.743283, 0 ],
+									"addpoints" : [ 0.0, 0.797581, 0, 259.0, 0.041652, 0, 398.0, 0.616791, 0, 455.0, 0.498816, 0, 746.0, 0.910964, 0, 876.0, 0.780425, 0, 876.0, 0.910964, 0, 974.0, 0.165399, 0 ],
 									"classic_curve" : 1,
 									"id" : "obj-22",
 									"maxclass" : "function",
@@ -17878,7 +17878,7 @@
 														"filename" : "ChamberVerb.amxd.maxsnap",
 														"filepath" : "~/Desktop/soundcapewalks/MAX/mainpatch/data",
 														"filepos" : -1,
-														"snapshotfileid" : "bce5c0fbc41b2d99ed36593ef3b02cb7"
+														"snapshotfileid" : "3c0e4c76a39349c100fb435b39d2e8e8"
 													}
 
 												}
