@@ -1,27 +1,3 @@
-# soundcapewalks
+# soundcapewalks - Włodzimierz Żukowski, Patrycja Kołodziejska
 
-Do zrobienia Włodek:
-- wizualizacja operowej ✅
-- topografia sieci ✅
-- https://youtu.be/ZgYxo6o-o9s?si=XIV8wCqKpiogWvan
-
-Do zrobienia Pati:
-- próbki audio z soundskape'ów
-- temat do eksploracji: data thingies, DNA thingies
-
-I jeszcze kilka zagadnień:
-- maxa lecimy w kwadro
-- TD odpalamy na 2 urządzeniach
-
-W idealnym świecie będziemy mieli dwa foldery: jeden do touchdesignera, drugi do maxa
-
-
-TD, sceny:
-1. Metro/lights ✅
-2. Drzewo ✅
-3. Miasto (z 3d) ✅
-
-
-- jak robimy przejścia?
-
-- doskanować ulice!
+Generatywna instalacja
