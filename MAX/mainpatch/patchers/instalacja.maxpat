@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 35.0, 32.0, 1468.0, 757.0 ],
+		"rect" : [ 35.0, 6.0, 1468.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -260,7 +260,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
+						"rect" : [ 34.0, 62.0, 1852.0, 984.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -5390,7 +5390,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1035.104637503623962, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 16 4 32 8"
+									"text" : "pattern 4 8 4 8"
 								}
 
 							}
@@ -5680,7 +5680,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 817.65749990940094, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 4 32 8 16"
+									"text" : "pattern 32 32 8 8"
 								}
 
 							}
@@ -5970,7 +5970,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 602.040810585021973, 249.65986156463623, 120.748298645019531, 22.0 ],
-									"text" : "pattern 16 32 4 16"
+									"text" : "pattern 32 16 8 32"
 								}
 
 							}
@@ -17407,7 +17407,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 34.0, 62.0, 1372.0, 804.0 ],
+						"rect" : [ 34.0, 62.0, 1852.0, 984.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -17878,7 +17878,7 @@
 														"filename" : "ChamberVerb.amxd.maxsnap",
 														"filepath" : "~/Desktop/soundcapewalks/MAX/mainpatch/data",
 														"filepos" : -1,
-														"snapshotfileid" : "3c0e4c76a39349c100fb435b39d2e8e8"
+														"snapshotfileid" : "bce5c0fbc41b2d99ed36593ef3b02cb7"
 													}
 
 												}
@@ -19619,6 +19619,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-122", 0 ],
+									"midpoints" : [ 1362.53509084383677, 861.0, 1350.0, 861.0, 1350.0, 804.0, 1900.0, 804.0 ],
 									"order" : 0,
 									"source" : [ "obj-124", 0 ]
 								}
